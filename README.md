@@ -19,7 +19,16 @@ The features include:
 5. Churn as the predictor/ Target variable
 
 ## Exploratory Data Analysis  
-The image below is a illustration of the churn distribution across the dataset. 
+The image below is a illustration of the churn distribution across the dataset.  
+
+![ChurnDistribution](Images/Churn_Distribution.png)  
+From the dataset, 85% of the customers stayed with the company however, aroound 15% of the customers churned SyriaTel. The project will address the challenge of the 15% of the customers who churned.   
+What is the relationship between Customer service calls and Churn?   
+The image below illustrates the count of customer churns based on the number of customer service calls made to SyriaTel   
+![CustomerService](Images/Customer_Service.png)   
+The illustration shows that customers who make more than three customer service calls have an increased rate of customer churn. 
+
+
 
 
 
