@@ -18,7 +18,10 @@ The features include:
 4. Demographic and account info: Account length, state and AreaCode
 5. Churn as the predictor/ Target variable
 
-## Modeling 
+## Exploratory Data Analysis  
+The image below is a illustration of the churn distribution across the dataset. 
+
+
 
 
 
