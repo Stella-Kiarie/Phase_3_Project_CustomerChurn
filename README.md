@@ -48,9 +48,12 @@ This modeling process has followed an iterative approach moving from a simple ba
 
 ### Model Iterations  
  Baseline: Logistic Regression : This was the modeling start point. The model had an accuracy of 77% without overfitting . However, the model had a very law precision rate of 36%. 
+
  Decision Tree: As compared to the baseline model, Decision Tree, moved the Recall to 81.4%. The model increased precision  to 73.4% which is souble and with an icreased accuracy of 93.1%  . 
+
  Tuned Decision Tree: Hyperameter tuning with GridSearchCV. Tuning the model increase recall to 86.6% however with a significant drop in Precision to 47%.  
  Random Forest: As compared to the Tuned Decision Tree, for Random Forest, leveraged the F1 scoring metrics.   
+ 
  The table below is a summary of the scoring metrics 
 
 ![Model_summary](Images/Models_metrics.png) 
