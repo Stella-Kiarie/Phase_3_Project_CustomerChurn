@@ -53,14 +53,33 @@ This modeling process has followed an iterative approach moving from a simple ba
 
  Tuned Decision Tree: Hyperameter tuning with GridSearchCV. Tuning the model increase recall to 86.6% however with a significant drop in Precision to 47%.  
  Random Forest: As compared to the Tuned Decision Tree, for Random Forest, leveraged the F1 scoring metrics.   
- 
+
  The table below is a summary of the scoring metrics 
 
 ![Model_summary](Images/Models_metrics.png) 
 
+## EVALUATION   
+ The Random Forest Model has the best performance and was able to generalize the dataset.   
+ Precision of 93.8% . This implies that out of 100 customers flagged to be at a churn risk 94% of the customers are actually churners. 
+ Recall: The model generalizes over 77% of the total as churners
+  The model has an accuracy of 96% as compared to the baseline logistic model (77%)
 
+The rationale besides considerting Precision as the best metric is that a high precision indicates that SyriaTel will not require to make unneccesary promotions and offers on the non churn customers and hence making the huge investment on churn customers. 
 
+The model highlights the follwoing as the top 10 indicators of customer churn   
 
+![Top 10 Indicators](Images/Indicators.png) 
+
+## Conclusion 
+Syriatel should enforce a “3rd Call emergency” Rule to address the
+increased customer churn rate on customers with more than 3
+customer service calls.
+• Daytime_minutes has the greatest predictor of customer churn. The
+company can implement a “High volume” specialized bundle to help
+daytime users reduce their per-minute costs. This could decrease the
+probability of churn on day _time _minute customers.
+• Customers with international plans have a churn risk. Syriatel needs to
+evaluate the value proposition for international plan customers.
 
 
 
