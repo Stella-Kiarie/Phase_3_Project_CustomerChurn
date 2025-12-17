@@ -1,7 +1,7 @@
 # SYRIATEL CUSTOMER CHURN ANALYSIS 
 
 
-[Syriatel](Images/SyriaTel.png)
+![Syriatel](Images/SyriaTel.png)
 
 
 ## Overview  
