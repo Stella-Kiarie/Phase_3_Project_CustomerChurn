@@ -26,7 +26,24 @@ From the dataset, 85% of the customers stayed with the company however, aroound 
 What is the relationship between Customer service calls and Churn?   
 The image below illustrates the count of customer churns based on the number of customer service calls made to SyriaTel   
 ![CustomerService](Images/Customer_Service.png)   
-The illustration shows that customers who make more than three customer service calls have an increased rate of customer churn. 
+
+
+The illustration shows that customers who make more than three customer service calls have an increased rate of customer churn.  
+
+### Pre_processing for Machine Learning  
+
+Since highly correlated features can influence the accuracy of the models. Highly correlated Features had to be dropped before modeling the data. 
+![Correlation](Images/Correlation.png)  
+ 
+ The highly related columnns and irrelevant columns were dropped i.e day/eve/night/intl charge, phone number,areacode, day/eve/night calls, account lenth, state  
+
+ To avoid data leakage and Scaling, the data has been fitted into a Pipeline .   
+ Tranforming the numeric features using standard scaler and  using OneHotEncoder to convert categorical columns to numerical columns.  
+
+After the tranformation, the data is split to training and test datasets to start modelling.  
+
+
+
 
 
 
