@@ -68,20 +68,15 @@ The rationale besides considerting Precision as the best metric is that a high p
 
 The model highlights the follwoing as the top 10 indicators of customer churn   
 
-![Top 10 Indicators](Images/Indicators.png) 
-
-## Conclusion 
-
+![Top 10 Indicators](Images/Indicators.png)   
+## Conclusion  
 Syriatel should enforce a “3rd Call emergency” Rule to address the
 increased customer churn rate on customers with more than 3
-customer service calls.
-
+customer service calls.  
 • Daytime_minutes has the greatest predictor of customer churn. The
 company can implement a “High volume” specialized bundle to help
 daytime users reduce their per-minute costs. This could decrease the
-probability of churn on day _time _minute customers.
-
-
+probability of churn on day _time _minute customers.  
 • Customers with international plans have a churn risk. Syriatel needs to
 evaluate the value proposition for international plan customers.
 
